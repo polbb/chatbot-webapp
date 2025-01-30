@@ -8,7 +8,8 @@ from typing import Optional
 class ChatInterface:
     """Interface for communicating with the chatbot API."""
     
-    def __init__(self, api_url: str = "http://localhost:8000"):
+    def __init__(self, api_url: str = "https://ca41-82-4-109-120.ngrok-free.app"):
+    # def __init__(self, api_url: str = "http://localhost:8000"):
         """Initialize the chat interface."""
         self.api_url = api_url
         self.session_id: Optional[UUID] = None
