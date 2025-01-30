@@ -5,10 +5,7 @@ description = ""
 authors = ["polbb <paulbessone@gmail.com>"]
 readme = "README.md"
 
-# Add this section if it doesn't exist
-packages = [
-    { include = "webapp" }
-]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
